@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --config webpack.config.js --watch --mode development",
+    "command-server": "node ./src/command_server.js",
     "command-tunnel": "lt --port 8576 --subdomain shankbotcommands"
   },
   "repository": {
